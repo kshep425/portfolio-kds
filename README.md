@@ -46,4 +46,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## Badges
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+[![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)](https://github.com/kshep425/portfolio)

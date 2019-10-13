@@ -18,9 +18,9 @@ Keisha Shepherd's portfolio is available to potential employers and clients to'
 1. Follow Links to Projects and Repositories
 
 ## Credits
-John's Hopkins University - Full Stack Development Bootcamp - https://johnhopkins.bootcampcontent.com/john-hopkins-university/JHU-BAL-FSF-PT-09-2019-U-C/
+* [John's Hopkins University - Full Stack Development Bootcamp](https://johnhopkins.bootcampcontent.com/john-hopkins-university/JHU-BAL-FSF-PT-09-2019-U-C/)
 
-
+* [Subtle Patterns](https://www.toptal.com/designers/subtlepatterns/triangle-mosaic-pattern/)
 
 ## License
 MIT License
@@ -47,4 +47,3 @@ SOFTWARE.
 
 ## Badges
 ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-

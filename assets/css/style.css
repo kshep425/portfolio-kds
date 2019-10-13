@@ -1,0 +1,117 @@
+html, body {
+    width: 960px;
+    height: 100%;
+    margin: 0;
+    padding: 10px;
+    margin: auto;
+    color: #777777;
+}
+
+.heading_font {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.other_font {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.header{
+    position: relative;
+    background-color: #ffffff;
+    background-size: cover;
+    border-color: #cccccc;
+}
+
+/* Create two eqal columns that floats next to  each other */
+.column {
+    float: left;
+    /*width: 50%;*/
+}
+
+/* Clear floats after the columns */
+.header:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.logo {
+    height: 100%;
+    background-color: #4aaaa5;
+    border-top: 10px solid #4aaaa5;
+    border-bottom: 10px solid #4aaaa5;
+    border-right: 10px solid #4aaaa5;
+    border-left: 10px solid #4aaaa5;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.links {
+    word-spacing: 10px;
+    text-align: right;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.links a:hover {
+    background-color: white;
+    color: blue;
+}
+
+a {
+    color: #777777;
+    text-decoration-line: None;
+
+}
+
+.div_100_percent_width {
+    position: absolute;
+    top: 34%;
+    right: -50%;
+    bottom: 0%;
+    left: -50%;
+    height: 100%;
+    background-size: cover;
+    background-image: url("../images/triangle-mosaic.png");
+    background-color: pink;
+    z-index: -1;
+}
+
+.main_content {
+    background-color: #ffffff;
+    border-color: #dddddd;
+}
+
+.about_me {
+    color: #4aaaa5;
+}
+
+img.top {
+    vertical-align: text-top;
+    height: 200px;
+    width: 200px;
+    float: left;
+    padding-top: 5px;
+    padding-right: 10px;
+  }
+
+.footer,
+.push {
+    height: 50px;
+}
+
+.footer {
+    position: absolute;
+    background-color: #666666;
+    width: 100%;
+    left: 0px;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+}
+
+.copyright {
+    color: #c2c2c2;
+}

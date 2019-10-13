@@ -12,7 +12,7 @@ This is Keisha Shepherd's professional portfolio site showcasing my applicaions 
 N/A
 
 ## Usage
-Keisha Shepherd's portfolio is available to potential employers and clients to'
+Keisha Shepherd's portfolio is available to potential employers and clients to:
 1. Learn more about her
 1. Find Contact Information
 1. Follow Links to Projects and Repositories

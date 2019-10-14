@@ -9,46 +9,67 @@
 <body>
     <header class="header">
 
-            <div class="logo column">
-                <p class="logo heading_font">Keisha Shepherd</p>
-            </div> <!--logo-->
+        <div class="logo column">
+            <p class="logo heading_font">Keisha Shepherd</p>
+        </div>
+        <!--logo-->
 
-            <div class="links column">
-                <p class="other_font">
-                    <a href="./index.html">About</a>
-                    |
-                    <a href="./portfolio.html">Portfolio</a>
-                    |
-                    <a href="./contact.html">Contact</a>
-                </p>
-            </div> <!--links-->
+        <div class="links column">
+            <p class="other_font">
+                <a href="./index.html">About</a>
+                |
+                <a href="./portfolio.html">Portfolio</a>
+                |
+                <a href="./contact.html">Contact</a>
+            </p>
+        </div>
+        <!--links-->
 
-        </header> <!--header-->
+    </header>
+    <!--header-->
 
-        <!--Main content-->
-        <div class="div_100_percent_width"></div>  <!--Class 100 %-->
+    <!--Main content-->
+    <div class="div_100_percent_width"></div>
+    <!--Class 100 %-->
 
-        <div class="main_content other_font">
+    <div class="main_content other_font">
 
-            <!--About Me Heading-->
-            <div class="main_section">
-                <h1 class="heading_font about_me">Contact</h1>
-            </div> <!--main_section-->
+        <!--About Me Heading-->
+        <div class="main_section">
+            <h1 class="heading_font about_me">Contact</h1>
+        </div>
+        <!--main_section-->
 
-            <!--Horizontal Rule-->
-            <hr>
+        <!--Horizontal Rule-->
+        <hr>
 
-            <!--Contact Form-->
+        <!--Contact Form-->
+        <div class="contact_form">
+            <form action="action_page.php">
 
-            <div class="push"></div>
+                <label for="fname">Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="John Smith">
 
-        </div> <!--Main Content-->
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="example@gmail.com">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Write something..." style="height:200px"></textarea>
+
+                <input class=button type="submit" value="Submit">
+
+            </form>
+        </div> <!--Contact Form-->
+
+        <div class="push"></div>
+
+    </div> <!--Main Content-->
 
 
-        <footer class="footer">
-            <p class="copyright other_font">Copyright © </p>
-        </footer>
-        <!--footer-->
-    </body>
+    <footer class="footer">
+        <p class="copyright other_font">Copyright © </p>
+    </footer>
+    <!--footer-->
+</body>
 
 </html>

@@ -47,3 +47,10 @@ SOFTWARE.
 
 ## Badges
 ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+
+## Contributing
+N/A
+
+## Tests
+N/A
+

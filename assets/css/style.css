@@ -23,7 +23,7 @@ body {
   border-color: #cccccc;
 }
 
-/* Create two eqal columns that floats next to  each other */
+/* Create two equal columns that float next to  each other */
 .column {
   float: left;
   /*width: 50%;*/
@@ -74,6 +74,7 @@ a {
   right: -50%;
   bottom: 0%;
   left: -50%;
+  height: 95%; /*Set height to 95% so it doesn't go below the footer*/
   background-size: cover;
   background-image: url("../images/triangle-mosaic.png");
   background-color: #ffffff;

@@ -1,48 +1,66 @@
-html,
 body {
-  width: 960px;
-  height: 100%;
-  margin: 0;
-  padding: 10px;
-  margin: auto;
-  color: #777777;
+    /* Remove margins from body, so that background touches the edges */
+    margin: 0px;
 }
 
+/* Set header and main content to a 960 width */
+.width_960 {
+    margin: auto;
+    width: 960px;
+}
+
+/* Set Heading font-family */
 .heading_font {
   font-family: "Georgia", Times, "Times New Roman", serif;
 }
 
+/* Set all other font-family */
 .other_font {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
-.header {
-  position: relative;
+/* Stretch the background color to touch the top, right, and left edges of the screen */
+
+.header-background {
+  overflow: auto;
   background-color: #ffffff;
+  background-position: top right;
+  background-repeat: repeat-x;
   background-size: cover;
-  border-color: #cccccc;
 }
 
-/* Create two equal columns that float next to  each other */
+/* Make the header element sticky at the top of the page*/
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+/* Create two columns that float next to each other */
 .column {
   float: left;
-  /*width: 50%;*/
 }
 
 /* Clear floats after the columns */
 .header:after {
+  clear: both;
   content: "";
   display: table;
-  clear: both;
+
+}
+/* Put the logo and link inside of the container */
+.link_and_logo_container {
+  position: relative;
+  width: 960;
+  overflow: auto;
+  background-color: #ffffff
 }
 
+/* Create a Logo - Green with White Text */
 .logo {
-  height: 100%;
   background-color: #4aaaa5;
-  border-top: 10px solid #4aaaa5;
-  border-bottom: 10px solid #4aaaa5;
-  border-right: 10px solid #4aaaa5;
+  /* Add a left and right border to unsquish to logo */
   border-left: 10px solid #4aaaa5;
+  border-right: 10px solid #4aaaa5;
   font-size: 1.5em;
   font-weight: bold;
   color: white;
@@ -52,14 +70,12 @@ body {
   word-spacing: 10px;
   text-align: right;
   position: absolute;
-  top: 60px;
   right: 0;
   display: inline-block;
-  vertical-align: middle;
+  top: 45px;
 }
 
 .links a:hover {
-  background-color: white;
   color: blue;
 }
 
@@ -68,23 +84,20 @@ a {
   text-decoration-line: None;
 }
 
-.div_100_percent_width {
-  position: absolute;
-  top: 34%;
-  right: -50%;
-  bottom: 0%;
-  left: -50%;
-  height: 95%; /*Set height to 95% so it doesn't go below the footer*/
-  background-size: cover;
+.main_background {
   background-image: url("../images/triangle-mosaic.png");
+  /* Set background color if image is not found */
   background-color: #ffffff;
-  z-index: -1;
+  background-position: top right;
+  background-repeat: repeat-x;
+  background-size: cover;
 }
+
 
 .main_content {
   background-color: #ffffff;
-  border-color: #dddddd;
   padding: 10px;
+  width: 960px;
 }
 
 .about_me {
@@ -100,91 +113,13 @@ img.top {
   padding-right: 10px;
 }
 
-.footer,
-.push {
-  height: 50px;
-}
-
 .footer {
-  position: absolute;
-  background-color: #666666;
-  width: 100%;
-  left: 0px;
-  text-align: center;
-  border-top: 8px solid #4aaaa5;
-}
+    margin: 0;
+    border-top: 10px solid #4aaaa5;
 
-.copyright {
-  color: #c2c2c2;
-}
-
-/* Style inputs with type="text", select elements and textareas */
-input[type="text"],
-select,
-textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
-}
-
-.button {
-  background-color: #4aaaa5;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
-table tr td {
-  border: 5px solid #4aaaa5;
-  background-color: white;
-}
-
-.portfolio_img {
-  height: 200px;
-  width: 200px;
-  z-index: 2;
-}
-
-td {
-  height: 200px;
-  width: 200px;
-  padding: 10px;
-  position: relative;
-}
-.portfolio_name {
-  width: 200px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  position: absolute;
-  bottom: 5px;
-  background-color: #4aaaa5;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  cursor: pointer;
-  z-index: 3;
-}
-
-.rotate_90 {
-  transform: rotate(90deg);
-}
-
-.rotate_-90 {
-  transform: rotate(-90deg);
-}
-
-.hidden {
-  display: none;
+    padding: 10px;
+    background-color: #666666;
+    background-clip: border-box;
+    text-align: center;
+    padding-bottom: 0;
 }

@@ -179,3 +179,43 @@ td{
   left: 31px;
 
 }
+
+/* ======================================================== */
+/* Contact Info */
+
+input[type=text], select {
+  width: 100%;
+  padding: 4px 8px;
+  margin: 12px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  color: white;
+  padding: 10px 20px;
+  margin: 12px 0;
+  border: none;
+  background-color: #4aaaa5;
+  cursor: pointer;
+}
+
+textarea {
+  height: 110px;
+  width: 100%;
+  padding: 4px 8px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.button:hover {
+  background-color: turquoise;
+}
+
+.button:active {
+  background-color: green;
+  color: goldenrod
+}

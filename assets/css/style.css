@@ -107,7 +107,16 @@ a {
   color: #4aaaa5;
 }
 
+#about_me_img {
+  width: 200px;
+  height: 200px;
+  float: left;
+  padding-right: 10px;
+}
+
+/* Footer needs to stay at the bottom of the window, regardless of if main content is smaller or larger than the space available for the content. */
 .footer {
+    clear: left;
     margin: 0;
     border-top: 10px solid #4aaaa5;
 

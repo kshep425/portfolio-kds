@@ -5,6 +5,7 @@ body {
 
 /* Set header and main content to a 960 width */
 .width_960 {
+    /* Use margin auto to set the width to the center of the page */
     margin: auto;
     width: 960px;
 }
@@ -47,12 +48,13 @@ body {
   display: table;
 
 }
+
 /* Put the logo and link inside of the container */
 .link_and_logo_container {
   position: relative;
   width: 960;
   overflow: auto;
-  background-color: #ffffff
+  background-color: #ffffff;
 }
 
 /* Create a Logo - Green with White Text */
@@ -91,26 +93,18 @@ a {
   background-position: top right;
   background-repeat: repeat-x;
   background-size: cover;
+  height: 90%;
 }
 
 
 .main_content {
   background-color: #ffffff;
-  padding: 10px;
-  width: 960px;
+  width: 950px;
+  padding: 6px;
 }
 
 .about_me {
   color: #4aaaa5;
-}
-
-img.top {
-  vertical-align: text-top;
-  height: 200px;
-  width: 200px;
-  float: left;
-  padding-top: 5px;
-  padding-right: 10px;
 }
 
 .footer {
@@ -121,5 +115,67 @@ img.top {
     background-color: #666666;
     background-clip: border-box;
     text-align: center;
-    padding-bottom: 0;
+    /* Set padding-bottom to 0, to move text to the bottom of the element */
+    padding-bottom: 0px;
+    /* Set to -16px, to remove space from bottom of page to footer */
+    margin-bottom: -16px;
+}
+
+/* ================================================== */
+/* portfolio css */
+
+/* Set the table cell height and width and make it the position relative, to place the portfolio img and name relative to it*/
+td{
+  height: 200px;
+  width: 260px;
+  position: relative;
+}
+
+/* Set the portfolio image size to 100% of the td */
+.portfolio_img {
+  height: 100%;
+  width: 100%;
+}
+
+.portfolio_name {
+  /* Add padding to the portfolio name so it looks like a button */
+  padding: 10px;
+  background-color: #4aaaa5;
+  color: white;
+  text-align: center;
+  /* Set position to absolute and place the image a little above the bottom of the image it covers */
+  position: absolute;
+  bottom: 0;
+  /* Set width to 240px to accommodate for the padding.  If it isn't set the element goes outside of the page if set to 100% or to 260px; */
+  width: 240px;
+}
+
+.portfolio_name:hover {
+  background-color: turquoise;
+}
+
+.portfolio_name:active {
+  background-color: green;
+  color: goldenrod
+}
+
+.rotate_90 {
+  transform: rotate(90deg);
+  width: 200px;
+  height: 260px;
+  /* When the picture is rotated it moves left on the screen outside of the cell covering the picture to the left of it.  I used position absolute to move it to the right.  But when I moved it right it also moved down, so I had to use the bottom element to get it to move back to the top.*/
+  position: absolute;
+  left: 31px;
+  bottom: -25px;
+}
+
+.rotate_-90 {
+  transform: rotate(-90deg);
+  width: 200px;
+  height: 260px;
+  /* When the picture is rotate, it moves around on the screen and needs to be repositioned relative to the td */
+  position: absolute;
+  top: -29px;
+  left: 30px;
+
 }

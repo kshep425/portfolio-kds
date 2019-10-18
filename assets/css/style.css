@@ -175,7 +175,7 @@ td{
   height: 260px;
   /* When the picture is rotate, it moves around on the screen and needs to be repositioned relative to the td */
   position: absolute;
-  top: -29px;
-  left: 30px;
+  top: -30px;
+  left: 31px;
 
 }

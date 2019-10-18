@@ -17,6 +17,12 @@ Keisha Shepherd's portfolio is available to potential employers and clients to:
 1. Find Contact Information
 1. Follow Links to Projects and Repositories
 
+This is the homepage of my profile.
+<p align="center">
+  <img alt="Profile Page" src="./assets/images/about_me.png">
+</p>
+
+
 ## Credits
 * [John's Hopkins University - Full Stack Development Bootcamp](https://johnhopkins.bootcampcontent.com/john-hopkins-university/JHU-BAL-FSF-PT-09-2019-U-C/)
 
@@ -53,4 +59,3 @@ N/A
 
 ## Tests
 N/A
-

@@ -1,13 +1,13 @@
 body {
-    /* Remove margins from body, so that background touches the edges */
-    margin: 0px;
+  /* Remove margins from body, so that background touches the edges */
+  margin: 0px;
 }
 
 /* Set header and main content to a 960 width */
 .width_960 {
-    /* Use margin auto to set the width to the center of the page */
-    margin: auto;
-    width: 960px;
+  /* Use margin auto to set the width to the center of the page */
+  margin: auto;
+  width: 960px;
 }
 
 /* Set Heading font-family */
@@ -21,7 +21,6 @@ body {
 }
 
 /* Stretch the background color to touch the top, right, and left edges of the screen */
-
 .header-background {
   overflow: auto;
   background-color: #ffffff;
@@ -32,8 +31,8 @@ body {
 
 /* Make the header element sticky at the top of the page*/
 .sticky {
-    position: sticky;
-    top: 0;
+  position: sticky;
+  top: 0;
 }
 
 /* Create two columns that float next to each other */
@@ -96,7 +95,6 @@ a {
   height: 90%;
 }
 
-
 .main_content {
   background-color: #ffffff;
   width: 950px;
@@ -116,18 +114,18 @@ a {
 
 /* Footer needs to stay at the bottom of the window, regardless of if main content is smaller or larger than the space available for the content. */
 .footer {
-    clear: left;
-    margin: 0;
-    border-top: 10px solid #4aaaa5;
+  clear: left;
+  margin: 0;
+  border-top: 10px solid #4aaaa5;
 
-    padding: 10px;
-    background-color: #666666;
-    background-clip: border-box;
-    text-align: center;
-    /* Set padding-bottom to 0, to move text to the bottom of the element */
-    padding-bottom: 0px;
-    /* Set to -16px, to remove space from bottom of page to footer */
-    margin-bottom: -16px;
+  padding: 10px;
+  background-color: #666666;
+  background-clip: border-box;
+  text-align: center;
+  /* Set padding-bottom to 0, to move text to the bottom of the element */
+  padding-bottom: 0px;
+  /* Set to -16px, to remove space from bottom of page to footer */
+  margin-bottom: -16px;
 }
 
 /* ================================================== */
